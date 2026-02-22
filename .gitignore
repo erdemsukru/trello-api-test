@@ -1,39 +1,171 @@
+### MAVEN ###
 target/
-!.mvn/wrapper/maven-wrapper.jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
 !**/src/main/**/target/
 !**/src/test/**/target/
-.kotlin
 
-### IntelliJ IDEA ###
+### INTELIJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
 .idea/modules.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
-*.iws
-*.iml
-*.ipr
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/shelf
+.idea/httpRequests
+.idea/dataSources
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/runConfigurations
 
-### Eclipse ###
-.apt_generated
+### ECLIPSE ###
 .classpath
-.factorypath
 .project
-.settings
-.springBeans
-.sts4-cache
+.settings/
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*.lock
+*.log
+*.log.*
+*.jar~
+*.jar.versions
+**/build/
+**/dist/
+**/out/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+### NETBEANS ###
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
+### VS CODE ###
 .vscode/
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
 
-### Mac OS ###
+### JAVA ###
+*.class
+*.war
+*.ear
+*.jar
+*.nar
+hs_err_pid*
+*.heapdump
+*.hprof
+**/target/
+**/out/
+**/build/
+**/bin/
+
+### LOGS ###
+logs/
+*.log
+*.trace
+*.out
+*.pid
+
+### TEST OUTPUT ###
+test-output/
+surefire-reports/
+failsafe-reports/
+*.test
+*.results
+*.html
+*.htm
+*.xml
+*.json
+*.csv
+*.xlsx
+*.xls
+
+### CONFIG FILES (GİZLİ) ###
+config.properties
+*.properties
+application.properties
+application-*.properties
+*.yml
+*.yaml
+.env
+.env.*
+secrets.properties
+*.secret
+credentials.json
+*.credentials
+
+### OS GENERATED FILES ###
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+### GITHUB ACTIONS (Opsiyonel) ###
+.github/actions/
+*.github/workflows/*.yml.bak
+
+### DEPENDENCY CHECK ###
+dependency-check-report/
+dependency-check-resources/
+
+### PROJECT SPECIFIC ###
+# Trello token ve api key (manuel eklendi)
+# config.properties dosyası .gitignore'da olduğu için github'a gitmeyecek
+
+### TEMP FILES ###
+*.tmp
+*.temp
+*.cache
+*.pid
+*.seed
+*.pid.lock
+
+### DIAGRAMS ###
+*.puml
+*.plantuml
+*.drawio
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+### KEYS ###
+*.pem
+*.key
+*.crt
+*.pub
+*.private
+*.der
+*.p12
+*.pfx
+*.keystore
+*.jks
